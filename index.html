@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./images/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="./css/owfont-regular.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/icono.min.css" />
+    <title>momentum</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="player">
+        <div class="player-controls">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+        </div>
+        <div class="current-song">Song</div>
+        <div class="timeline">
+          <div class="progress"></div>
+          <div class="grab"></div>
+        </div>
+        <div class="additional-controls">
+          <div class="song-time">
+            <div class="current">0:00</div>
+            <div class="divider">/</div>
+            <div class="length"></div>
+          </div>
+          <div class="volume-container">
+            <div class="volume-button">
+              <div class="volume icono-volumeMedium"></div>
+            </div>
+            <div class="volume-slider">
+              <div class="volume-percentage"></div>
+            </div>
+          </div>
+        </div>
+        <ul class="play-list"></ul>
+      </div>
+      <div class="weather">
+        <input type="text" class="city" value="Minsk" />
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="slider-icons">
+        <button class="slide-prev slider-icon"></button>
+        <button class="slide-next slider-icon"></button>
+      </div>
+      <time class="time"></time>
+      <date class="date"></date>
+      <div class="greeting-container">
+        <span class="greeting"></span>
+        <input type="text" class="name" placeholder="[Enter name]" />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="quotes">
+        <button class="change-quote"></button>
+        <div>
+          <div class="quote"></div>
+          <div class="author"></div>
+        </div>
+      </div>
+
+      <div class="gear">
+        <div class="icono-gear"></div>
+      </div>
+
+      <div class="todo-button">
+        <div class="icono-document"></div>
+      </div>
+    </footer>
+    <div class="settings">
+      <div class="settings-wrapper">
+        <div class="settings-menu">
+          <div class="menu-item">
+            <p class="settings-language" id="player"></p>
+            <div class="menu-item-container">
+              <p class="menu-player"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="player-input checkbox"
+                  value=".player"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="weather"></p>
+            <div class="menu-item-container">
+              <p class="menu-weather"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="weather-input checkbox"
+                  value=".weather"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="quotes"></p>
+            <div class="menu-item-container">
+              <p class="menu-weather"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="quotes-input checkbox"
+                  value=".quotes"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="greeting"></p>
+            <div class="menu-item-container">
+              <p class="menu-greeting"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="greeting-input checkbox"
+                  value=".greeting-container"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="time"></p>
+            <div class="menu-item-container">
+              <p class="menu-time"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="time-input checkbox"
+                  value=".time"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="date"></p>
+            <div class="menu-item-container">
+              <p class="menu-date"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="date-input checkbox"
+                  value=".date"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="todo"></p>
+            <div class="menu-item-container">
+              <p class="menu-todo"></p>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  class="todos-input checkbox"
+                  value=".todo-button"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="language"></p>
+            <div class="menu-item-container">
+              <p class="menu-lang"></p>
+              <select size="1" class="lang-input">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+              </select>
+            </div>
+          </div>
+          <div class="menu-item">
+            <p class="settings-language" id="background"></p>
+            <div class="menu-item-container">
+              <p class="menu-background"></p>
+              <select class="back-input" size="1">
+                <option value="github">Github</option>
+                <option value="flickr">Flickr</option>
+                <option value="unsplash">Unsplash</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="todo">
+      <div class="todo-content">
+        <ul class="todo-list"></ul>
+        <div class="todo-new">
+          <input type="text" placeholder="add todo" class="todo-input" />
+          <button class="todo-add">Add</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

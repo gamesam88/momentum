@@ -1,0 +1,166 @@
+{
+    "en": [
+        {
+            "text": "Success consists of going from failure to failure without loss of enthusiasm",
+            "author": "Winston Churchill"
+        },
+        {
+            "text": "You miss 100% of the shots you don’t take",
+            "author": "Wayne Gretzky"
+        },
+        {
+            "text": "Success is the child of audacity",
+            "author": "Benjamin Disraeli"
+        },
+        {
+            "text": "Success is one percent inspiration, ninety-nine percent perspiration",
+            "author": "Thomas Edison"
+        },
+        {
+            "text": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change",
+            "author": "Charles Darwin"
+        },
+        {
+            "text": "Build your own dreams, or someone else will hire you to build theirs",
+            "author": "Farrah Gray"
+        },
+        {
+            "text": "The will to win, the desire to succeed, the urge to reach your full potential… these are the keys that will unlock the door to personal excellence",
+            "author": "Confucius"
+        },
+        {
+            "text": "Fall seven times and stand up eight",
+            "author": "Japanese Proverb"
+        },
+        {
+            "text": "There are no shortcuts to any place worth going",
+            "author": "Helen Keller"
+        },
+        {
+            "text": "Success is not the key to happiness. Happiness is the key to success",
+            "author": "Herman Cain"
+        },
+        {
+            "text": "The mind is everything. What you think you become",
+            "author": "Buddha"
+        },
+        {
+            "text": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light",
+            "author": "Plato"
+        },
+        {
+            "text": "When I do good, I feel good. When I do bad, I feel bad. That’s my religion",
+            "author": "Abraham Lincoln"
+        },
+        {
+            "text": "I am not a product of my circumstances. I am a product of my decisions",
+            "author": "Stephen Covey"
+        },
+        {
+            "text": "Remember no one can make you feel inferior without your consent",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "text": "It’s not the years in your life that count. It’s the life in your years",
+            "author": "Abraham Lincoln"
+        },
+        {
+            "text": "Either write something worth reading or do something worth writing",
+            "author": "Benjamin Franklin"
+        },
+        {
+            "text": "There are people who have money and people who are rich",
+            "author": "Coco Chanel"
+        },
+        {
+            "text": "You only live once, but if you do it right, once is enough",
+            "author": "Mae West"
+        },
+        {
+            "text": "Happiness lies in good health and a bad memory",
+            "author": "Ingrid Bergman"
+        }
+    ],
+    "ru": [
+        {
+            "text": "Успех — это умение двигаться от неудачи к неудаче, не теряя энтузиазма",
+            "author": "Уинстон Черчилль"
+        },
+        {
+            "text": "Вы промахнётесь 100 раз из 100 бросков, которые так и не сделаете",
+            "author": "Уэйн Гретцки"
+        },
+        {
+            "text": "Успех — дитя смелости",
+            "author": "Бенджамин Дизраэли"
+        },
+        {
+            "text": "Успех — это один процент вдохновения и девяносто девять процентов пота",
+            "author": "Томас Эдисон"
+        },
+        {
+            "text": "Выживает не самый сильный и не самый умный, а тот, кто лучше всех приспосабливается к изменениям",
+            "author": "Чарльз Дарвин"
+        },
+        {
+            "text": "Воплощайте собственные мечты, или кто-то другой наймёт вас, чтобы воплощать свои",
+            "author": "Фаррах Грей"
+        },
+        {
+            "text": "Воля к победе, желание добиться успеха, стремление полностью раскрыть свои возможности… вот те ключи, которые откроют дверь к личному совершенству",
+            "author": "Конфуций"
+        },
+        {
+            "text": "Упади семь раз, поднимись восемь",
+            "author": "Японская пословица"
+        },
+        {
+            "text": "К достойной цели нет коротких путей",
+            "author": "Хелен Келлер"
+        },
+        {
+            "text": "Успех — не ключ к счастью. Это счастье — ключ к успеху",
+            "author": "Герман Кейн"
+        },
+        {
+            "text": "Ум — это всё. Что вы думаете, тем вы становитесь",
+            "author": "Будда"
+        },
+        {
+            "text": "Можно с лёгкостью простить ребёнка, который боится темноты. Настоящая трагедия жизни — когда взрослые люди боятся света",
+            "author": "Платон"
+        },
+        {
+            "text": "Когда я делаю добро, я чувствую себя хорошо. Когда я поступаю плохо, я чувствую себя плохо. Вот моя религия",
+            "author": "Авраам Линкольн"
+        },
+        {
+            "text": "Я не продукт моих обстоятельств. Я продукт моих решений",
+            "author": "Стивен Кови"
+        },
+        {
+            "text": "Помните: никто не может заставить вас почувствовать себя униженным без вашего согласия",
+            "author": "Элеонора Рузвельт"
+        },
+        {
+            "text": "Имеет значение не количество прожитых лет, а качество вашей жизни в эти годы",
+            "author": "Авраам Линкольн"
+        },
+        {
+            "text": "Или напишите то, что стоит прочитать, или сделайте то, о чём стоит написать",
+            "author": "Бенджамин Франклин"
+        },
+        {
+            "text": "Есть люди, у которых есть деньги, и есть богатые люди",
+            "author": "Коко Шанель"
+        },
+        {
+            "text": "Мы живём один раз, но если правильно распорядиться жизнью, то и одного раза достаточно",
+            "author": "Мэй Уэст"
+        },
+        {
+            "text": "Счастье — это хорошее здоровье и плохая память",
+            "author": "Ингрид Бергман"
+        }
+    ]
+}
